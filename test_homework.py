@@ -1,3 +1,6 @@
+from math import pi
+import random
+
 def test_greeting():
     """
     Напишите программу, которая выводит на экран приветствие.
@@ -28,9 +31,6 @@ def test_rectangle():
 
     assert area == 200
 
-
-from math import pi
-
 def test_circle():
     """
     Напишите программу, которая берет радиус круга и выводит на экран его длину и площадь.
@@ -48,7 +48,7 @@ def test_circle():
     assert length == 144.51326206513048
 
 
-import random
+
 
 def test_random_list():
     """
